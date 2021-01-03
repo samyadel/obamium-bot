@@ -22,8 +22,8 @@ module.exports = {
         .setImage(data.url)
         .setTimestamp()
         .setFooter(
-          "discord.gg/eW8kyHF",
-          "https://yt3.ggpht.com/a/AATXAJyfayDHoTLqykhU-rFrVpOQiACjgZCQUKzBKJQQ0w=s900-c-k-c0xffffffff-no-rj-mo"
+          "https://discord.gg/dfzGqaGcg6",
+          "https://static.wikia.nocookie.net/joke-battles/images/b/b2/Obama_Prism.png/revision/latest/scale-to-width-down/340?cb=20191119223022"
         );
 
       message.channel.send({ embed: memeEmbed });
