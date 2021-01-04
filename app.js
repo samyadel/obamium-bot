@@ -5,7 +5,7 @@ const music = require("./commands/music");
 
 const client = new Client();
 
-const prefix = ".";
+let prefix = ".";
 
 let guild;
 let user;
