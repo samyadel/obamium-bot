@@ -141,6 +141,14 @@ client.on("message", async (message) => {
     }
 
     message.channel.bulkDelete(args[1]);
+  } else if (message.content.startsWith(`${prefix}prefix`)) {
+    if (!args[1]) {
+      message.channel.send("Please specify the new prefix");
+    } else {
+      prefix = args[1];
+
+      message.channel.send(`Prefix changed to ${prefix}`);
+    }
   }
 });
 
